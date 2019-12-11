@@ -21,6 +21,6 @@ let package = Package(
         .target(
             name: "RxMKMapView",
             dependencies: ["RxCocoa", "RxSwift"],
-            path: "RxMKMapView"),
+            path: "RxMKMapView/Sources"),
     ]
 )
