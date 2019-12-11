@@ -15,6 +15,7 @@
 		2B58CA6220E0F6C600D521A9 /* RxMKMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B58CA5420E0F6C500D521A9 /* RxMKMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B58CA7B20E0F86800D521A9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B58CA7920E0F86700D521A9 /* RxSwift.framework */; };
 		2B58CA7C20E0F86800D521A9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B58CA7A20E0F86800D521A9 /* RxCocoa.framework */; };
+		431684D423A073F200564C02 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431684D323A073F200564C02 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2B58CA5520E0F6C500D521A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B58CA7920E0F86700D521A9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		2B58CA7A20E0F86800D521A9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		431684D323A073F200564C02 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		2B58CA5320E0F6C500D521A9 /* RxMKMapView */ = {
 			isa = PBXGroup;
 			children = (
+				431684D323A073F200564C02 /* Package.swift */,
 				2B0E685620E13B0800C07827 /* Sources */,
 				2B58CA5420E0F6C500D521A9 /* RxMKMapView.h */,
 				2B58CA5520E0F6C500D521A9 /* Info.plist */,
@@ -145,7 +148,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-        Base,
+				Base,
 			);
 			mainGroup = 2B58CA4720E0F6C500D521A9;
 			productRefGroup = 2B58CA5220E0F6C500D521A9 /* Products */;
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431684D423A073F200564C02 /* Package.swift in Sources */,
 				2B0E685D20E13B0800C07827 /* RxMKMapViewDelegateProxy.swift in Sources */,
 				2B0E685E20E13B0800C07827 /* RxMapViewReactiveDataSource.swift in Sources */,
 				2B0E686120E13B0800C07827 /* RxMapViewDataSourceType.swift in Sources */,
@@ -324,6 +328,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.rxswift.community.RxMKMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -353,6 +358,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.rxswift.community.RxMKMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
